@@ -36,3 +36,9 @@
        UIButton *titleButton = (UIButton *)self.navigationItem.titleView;
         titleButton.selected  = YES;
     }
+###Remind
+        附带直接修改view属性分类"UIView+Extension.h"
+        // 设置灰色的高度
+        self.containerView.height = CGRectGetMaxY(content.frame) + 11;
+        // 设置灰色的宽度
+        self.containerView.width  = CGRectGetMaxX(content.frame) + 10;
