@@ -16,6 +16,7 @@
 		8124B9721CB7AB8B0039AEB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8124B96D1CB7AB8B0039AEB1 /* main.m */; };
 		8124B9731CB7AB8B0039AEB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8124B96F1CB7AB8B0039AEB1 /* ViewController.m */; };
 		8124B9751CB7ACBD0039AEB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8124B9741CB7ACBD0039AEB1 /* Assets.xcassets */; };
+		8124B98F1CB7C3070039AEB1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8124B98E1CB7C3070039AEB1 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		8124B96E1CB7AB8B0039AEB1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8124B96F1CB7AB8B0039AEB1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8124B9741CB7ACBD0039AEB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8124B98E1CB7C3070039AEB1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				8124B93D1CB79DE60039AEB1 /* Info.plist */,
+				8124B98E1CB7C3070039AEB1 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8124B9751CB7ACBD0039AEB1 /* Assets.xcassets in Resources */,
+				8124B98F1CB7C3070039AEB1 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +499,7 @@
 				8124B9581CB79DE60039AEB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8124B9591CB79DE60039AEB1 /* Build configuration list for PBXNativeTarget "YJDropDownMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +508,7 @@
 				8124B95B1CB79DE60039AEB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8124B95C1CB79DE60039AEB1 /* Build configuration list for PBXNativeTarget "YJDropDownMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +517,7 @@
 				8124B95E1CB79DE60039AEB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
